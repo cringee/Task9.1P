@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_create_advert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a New Advert" />
+
+    <Button
+        android:id="@+id/btn_show_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Item Map" />
+
+    <Button
+        android:id="@+id/btn_show_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Lost and Found Items" />
+
+</LinearLayout>
